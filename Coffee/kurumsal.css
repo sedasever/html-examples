@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  flex-basis: 100%;
+}
+/* Kargo Yazısı*/
+.kargobedava {
+  width: 100½;
+  height: 30px;
+  padding-top: 10px;
+  background-color: rgb(0, 82, 77);
+  color: azure;
+  display: flex;
+}
+.kargobedava i {
+  padding-right: 30px;
+  padding-top: 3px;
+}
+.kargobedava h3 {
+  text-align: center;
+  cursor: pointer;
+}
+/* Menü */
+/* Add a black background color to the top navigation bar */
+.topnav {
+  background-color: #e9e9e9;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.topnav h3 {
+  margin: revert;
+  font-size: 30px;
+  color: rgb(0, 82, 77) rgb(71, 9, 9);
+}
+.topnav h3:hover {
+  cursor: pointer;
+}
+.topnav h3 {
+  text-align: center;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: rgb(0, 82, 77);
+  color: white;
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type="text"] {
+  width: -webkit-fill-available;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.tel {
+  text-align: center;
+  cursor: pointer;
+}
+/* Orta */
+/*
+container-header {
+  height: 215px;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--color-04);
+}
+*/
+/* Orta Başlık */
+.ortabaslik {
+  background-color: #00524d;
+  height: 215px;
+  overflow: hidden;
+  text-align: center;
+}
+.ust {
+  margin: 0px;
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ust::after {
+  -webkit-text-stroke: 1px #05423f;
+  -webkit-text-fill-color: #00524d;
+  color: aqua;
+  content: attr(data-headline);
+  width: 100%;
+  font-size: 120px;
+  line-height: 120px;
+  font-family: "VAGRoundedBT", sans-serif;
+  position: absolute;
+  left: 0;
+  top: -30px;
+  z-index: -1;
+}
+.altnav {
+  background-color: #05423f;
+  height: 215px;
+  width: 100%;
+  color: white;
+}
+.altnav a {
+  color: white;
+  font-family: "Vag", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 400px;
+}
+.altnav .konum {
+  padding-left: 100px;
+  padding-top: 35px;
+}
+
+.altnav .üsttitle {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 35px;
+  font-family: "Vag", sans-serif;
+  font-style: normal;
+}
+s .content-breadcrumb {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.content-breadcrumb li {
+  padding-top: 30px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: #e3e2df;
+}
+.content-breadcrumb li a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  color: var(--black-color);
+  font-size: var(--font-size);
+  font-family: "Vag", sans-serif;
+}
+html {
+  line-height: normal;
+  font-weight: normal;
+  -webkit-text-size-adjust: 100%;
+}
+div {
+  display: block;
+}
+.content-title {
+  color: white;
+}
+:root {
+  --color-01: #00524d;
+  --color-02: #dd8c33;
+  --color-03: #f0efeb;
+  --color-04: #06514d;
+  --color-05: #d98833;
+  --color-06: #888b91;
+  --color-07: #e3e2df;
+  --color-08: #090d1e;
+  --font-size: 18px;
+  --text-color: #757575;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --border-color: #f7f2ee;
+  --header-height: 128px;
+}
+.container-area {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+div {
+  display: block;
+}
+img.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+.responsive-img {
+  vertical-align: bottom;
+}
+img {
+  border-style: none;
+  width: 385px;
+  aspect-ratio: auto 385 / 311;
+  height: 311px;
+}
+.imageclass {
+  background-image: url("https://www.kahvediyari.com.tr/images/about-count-tr.png");
+  background-color: rgb(217, 136, 51);
+  background-size: 30%;
+  background-position: 90% 70px;
+  height: 492px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.imageclass h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: #ffffff;
+  padding-top: 58px;
+  padding-left: 100px;
+}
+.imageclass h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ffffff;
+  padding-left: 100px;
+  padding-top: -5px;
+}
+.bolum2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.bolum2 .kutu {
+  width: 520px;
+  height: 320px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgb(6, 81, 77);
+  color: #fff;
+  list-style-type: none;
+  font-size: 15px;
+  line-height: 25px;
+}
+.bolum2 .kutu p {
+  text-align: center;
+}
+.bolum2 .kutu2 p {
+  text-align: center;
+}
+.bolum2 .kutu2 {
+  width: 520px;
+  height: 320px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgb(217, 136, 51);
+  color: #fff;
+  margin-right: 10 0px;
+  list-style-type: none;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+.bolum2 .kutu2 h2 {
+  line-height: 50px;
+  text-align: center;
+  background-color: #d33257;
+  color: #fff;
+  margin-right: 10 0px;
+  font-size: 1px;
+}
+.content-text h2 {
+  text-align: center;
+  color: #00524d;
+  padding-top: 80px;
+}
+.content-text p {
+  text-align: center;
+}
+.content-text strong {
+  color: rgb(221, 140, 51);
+}
+.kutu2 .m {
+  margin-left: -35px;
+}
+.kutu2 .o {
+  margin-left: -55px;
+}
+.kutu2 .r {
+  margin-left: -215px;
+}
+.kutu .z {
+  margin-left: -15px;
+}
+.deneme h2 {
+  margin-top: -50px;
+}
+.deneme1 h2 {
+  margin-top: -50px;
+}
+#bir {
+  margin-left: 80px;
+}
+#iki {
+  margin-left: -20px;
+}
+.tosi {
+  margin-top: -50px;
+}
+.tosi2 {
+  margin-top: -50px;
+}
+/*Footer*/
+* Footer */ footer1genel {
+  background-color: rgb(0, 82, 77);
+  color: white;
+}
+
+.footer1 {
+  display: inline-block;
+  background-color: rgb(0, 82, 77);
+  width: 33%;
+  height: 500px;
+}
+.footer1 h2 {
+  margin-left: 50px;
+  margin-top: 120px;
+}
+.footer1 i {
+  background-color: rgb(0, 82, 77);
+  color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.footer1 p {
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.footer1 h3 {
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.footer2 {
+  display: inline-block;
+  background-color: rgb(0, 82, 77);
+  width: 33%;
+  height: 500px;
+  vertical-align: top;
+}
+
+.footer3 {
+  display: inline-block;
+  background-color: rgb(0, 82, 77);
+  width: 33.3%;
+  height: 500px;
+  vertical-align: top;
+}
+.footer2 h2 {
+  margin-left: 70px;
+  margin-top: 120px;
+}
+.footer2 a {
+  color: white;
+  text-decoration: none;
+  margin-left: 70px;
+  font-size: 18px;
+}
+.footer2 table {
+  margin-top: 50px;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.footer3 h2 {
+  margin-left: 200px;
+  margin-top: 120px;
+}
+.footer3 a {
+  color: white;
+  text-decoration: none;
+  margin-left: 200px;
+  font-size: 18px;
+}
+.footer3 i {
+  background-color: rgb(0, 82, 77);
+  color: white;
+  margin-right: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.footer2genel {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.footer2genel p {
+  color: rgb(0, 82, 77);
+  font-size: 18px;
+  padding-top: 20px;
+  margin-left: 50px;
+}

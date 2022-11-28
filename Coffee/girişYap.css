@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Cagliostro&family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #1c3879;
+  background-color: #eae3d2;
+}
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #1c3879;
+  font-weight: 400;
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 4px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1em;
+  color: #1c3879;
+  font-size: 250%;
+  font-weight: 200;
+  text-align: center;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.grs a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 80px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1c3879;
+  margin-right: 15px;
+}
+
+table {
+  height: 1cm;
+}
+
+.grs a:hover {
+  text-decoration: none;
+  color: white;
+  padding: 10px 80px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #607eaa;
+  margin-right: 15px;
+  transition: all ease 0.8s;
+}
+
+button {
+  display: inline;
+  background: #1c3879;
+  color: #1c3879;
+  border: 0;
+  padding: 4px;
+}
+
+input {
+  display: block;
+  width: 98%;
+  height: 10px;
+  margin-top: 1em;
+  padding: 19px;
+}
+
+small {
+  display: inline-block;
+  margin-top: 5px;
+  color: white;
+  font-size: 100%;
+  color: #fff;
+}
+
+.login-box {
+  padding: 1em 1em 1em 1em;
+  margin: auto;
+  text-align: center;
+  display: block;
+  background-color: #eae3d2;
+  /*border: 1px dashed white;*/
+  width: 40%;
+  height: auto;
+}
+
+.outer-box {
+  display: block;
+  margin: auto;
+  background: #eae3d2;
+  border-radius: 5px;
+  width: 50%;
+  height: 20em;
+  height: auto;
+}
+
+#btn-login {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 2em;
+  border-radius: 4px;
+  background-color: #eae3d2;
+  color: #fff;
+}
+
+#btn-forgot {
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #000d36;
+}

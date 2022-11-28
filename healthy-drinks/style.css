@@ -1,0 +1,124 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+}
+.carousel {
+    width:640px;
+    height:360px;
+    margin: 0 auto;
+    }
+.card-flip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card-flip div {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    transition-timing-function: linear;
+}
+
+.card-front {
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+.footer{
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 20%;
+  background-color: #E03E52;
+  color: #FDF2F3;
+  display: flex;
+}
+.col-2 a{
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+.col-3 a{
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 10px;
+ 
+}
+.col-4 a{
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+.col-5 {
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 10px;
+ 
+}
+.footer-secondary{
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 50%;
+  background-color: #E03E52;
+  color: #FDF2F3;
+  display: flex;
+}
+
+.button a{
+  display: block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #350211;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.button a span{
+  position: relative;
+  z-index: 2;
+  font-weight: bolder;
+}
+.button a:after{
+  border-radius: 20px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #F5B6CD;
+  transition: all .35s;
+}
+
+.button a:hover{
+  border-radius: 20px;
+  color: #fff;
+}
+.button a:hover:after{
+  width: 100%;
+  border-radius: 20px;
+}

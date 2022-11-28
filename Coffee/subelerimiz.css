@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  flex-basis: 100%;
+}
+/* Kargo Yazısı*/
+.kargobedava {
+  width: 100½;
+  height: 30px;
+  padding-top: 10px;
+  background-color: rgb(0, 82, 77);
+  color: azure;
+  display: flex;
+}
+.kargobedava i {
+  padding-right: 30px;
+  padding-top: 3px;
+}
+.kargobedava h3 {
+  text-align: center;
+  cursor: pointer;
+}
+/* Menü */
+/* Add a black background color to the top navigation bar */
+.topnav {
+  background-color: #e9e9e9;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.topnav h3 {
+  margin: revert;
+  font-size: 30px;
+  color: rgb(0, 82, 77) rgb(71, 9, 9);
+}
+.topnav h3:hover {
+  cursor: pointer;
+}
+.topnav h3 {
+  text-align: center;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: rgb(0, 82, 77);
+  color: white;
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type="text"] {
+  width: -webkit-fill-available;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.tel {
+  text-align: center;
+  cursor: pointer;
+}
+/* Orta */
+.navtema {
+  background-color: white;
+  width: 100%;
+  height: 150px;
+}
+.altnav {
+  background-color: #1c3879;
+  height: 215px;
+  width: 100%;
+  color: white;
+}
+.altnav a {
+  color: white;
+  font-family: "Vag", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 400px;
+}
+
+.altnav .konum {
+  padding-left: 100px;
+  padding-top: 35px;
+}
+
+.altnav .üsttitle {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 35px;
+  font-family: "Vag", sans-serif;
+  font-style: normal;
+}
+.yazi {
+  width: 100%;
+  margin: bottom 60px;
+}
+.yazi .as {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 75px;
+  font-size: 22px;
+  line-height: 30px;
+}
+.yazi .icon {
+  display: inline-block;
+  margin-left: 50px;
+  border: 1px solid rgb(96, 126, 170);
+  width: 235px;
+  height: 65px;
+  background-color: rgb(96, 126, 170);
+  border-radius: 10px;
+  vertical-align: top;
+  margin-top: 40px;
+}
+.yazi .icon a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: auto;
+  padding-top: 20px;
+  font-size: 20px;
+  padding-left: 45px;
+}
+/* @media screen and (max-width: 300px) {
+    .genel > * {
+      flex-basis: 100%;
+    }
+  }
+  
+  .yazi {
+    display: flex;
+    width: 100%;
+  } */
+
+.altsubeler div {
+  border: 1px solid rgb(96, 126, 170);
+  margin: 10px;
+  width: 1010px;
+  height: 145px;
+  text-align: center;
+  display: flex;
+  margin-left: 170px;
+  margin-top: 20px;
+
+  border-radius: 10px;
+  color: white;
+}
+.altsubeler .subeadres {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  background-color: rgb(96, 126, 170);
+}
+.altsubeler .subeadres {
+  display: inline-block;
+}
+.altsubeler .subeadres p {
+  display: inline-block;
+  padding-left: 50px;
+  font-family: VAGRoundedBT, sans-serif;
+}
+
+.altsubeler .subeadres img {
+  display: inline-block;
+  margin-left: 20px;
+  width: 100px;
+  vertical-align: top;
+}
+.subeadres {
+  width: 100%;
+}
+.çizgi {
+  border-right: 2px solid black;
+}
+.subeadres a img {
+  display: inline-block;
+  margin-top: -60px;
+  padding-left: 150px;
+}
+.subeadres a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.subeler {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Footer */
+.footer1genel {
+  background-color: rgb(28, 56, 121);
+  color: white;
+}
+
+.footer1 {
+  display: inline-block;
+  background-color: rgb(28, 56, 121);
+  width: 33%;
+  height: 500px;
+}
+.footer1 h2 {
+  margin-left: 50px;
+  margin-top: 120px;
+}
+.footer1 i {
+  background-color: rgb(28, 56, 121);
+  color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.footer1 p {
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.footer1 h3 {
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.footer2 {
+  display: inline-block;
+  background-color: rgb(28, 56, 121);
+  width: 33%;
+  height: 500px;
+  vertical-align: top;
+}
+
+.footer3 {
+  display: inline-block;
+  background-color: rgb(28, 56, 121);
+  width: 33.3%;
+  height: 500px;
+  vertical-align: top;
+}
+.footer2 h2 {
+  margin-left: 70px;
+  margin-top: 120px;
+}
+.footer2 a {
+  color: white;
+  text-decoration: none;
+  margin-left: 70px;
+  font-size: 18px;
+}
+.footer2 table {
+  margin-top: 50px;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.footer3 h2 {
+  margin-left: 200px;
+  margin-top: 120px;
+}
+.footer3 a {
+  color: white;
+  text-decoration: none;
+  margin-left: 200px;
+  font-size: 18px;
+}
+.footer3 i {
+  background-color: rgb(28, 56, 121);
+  color: white;
+  margin-right: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.footer2genel {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.footer2genel p {
+  color: rgb(0, 82, 77);
+  font-size: 18px;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+/* Yazı */
+.kutu {
+  overflow: hidden;
+  text-align: center;
+  background-color: #1c3879;
+  height: 115px;
+  width: 100%;
+  color: #1c3879;
+}
+.ust {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ust::after {
+  -webkit-text-stroke: 1px #607eaa;
+  -webkit-text-fill-color: #1c3879;
+  color: white;
+  content: attr(data-headline);
+  width: 100%;
+  font-size: 120px;
+  line-height: 120px;
+  font-family: "VAGRoundedBT", sans-serif;
+  position: absolute;
+  left: 0;
+  top: -45px;
+  z-index: -1;
+}
+.subeler,
+.yazi {
+  text-align: center;
+}
+/* container */
+.container {
+  margin: 32.5%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="gonder"] {
+  background-color: #1c3879;
+  color: #f9f5eb;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 9%;
+}
+input[type="gonder"]:hover {
+  background-color: #607eaa;
+  transition: all ease-in 0.3s;
+}
+.container {
+  border-radius: 5px;
+  background-color: #eae3d2;
+  padding: 20px;
+  width: 40%;
+}
+h1 {
+  color: #1c3879;
+  font-family: "Montserrat", sans-serif;
+}
+h4 {
+  color: #607eaa;
+  font-family: "Montserrat", sans-serif;
+}
+/* Sayfa Layoutları */
+@media all and (min-width: 800px) {
+  .as {
+    order: 0;
+  }
+  .icon {
+    order: 1;
+  }
+  .subeler {
+    order: 2;
+  }
+  .container {
+    order: 4;
+  }
+}
